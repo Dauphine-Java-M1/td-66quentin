@@ -1,0 +1,45 @@
+Guardia Quentin
+
+TD0---------------------------------------------------------------------------------------------
+
+Exercice 1:
+
+4) Apache Maven 3.6.0. Donc la version est suffisament récente.
+
+5) Le groupId permet de définir le groupe du projet, et artifactId permet de définir le projet au sein du groupe
+
+6) Fonctionne en rajoutant le chemin de pom.xml avec l'option -f. Le répertoire target contient la sortie du build
+
+13) maven.compiler.target permet de paramétrer la version de Java à utiliser dans le dossier target
+
+7) Le fichier responsable est App.java dans src/main/java/fr/dauphine/ja/guardiaquentin/td00
+
+8) Le class path donne le chemin donnant accès au répertoire où se trouve les packages
+
+Exercice 2:
+
+1) Avec "java -jar target/td00-1.0-SNAPSHOT.jar", j'obtiens le message "aucun attribut manifest principal dans target/td00-1.0-SNAPSHOT.jar"
+
+Exercice 3:
+
+3) En tapant "sysout" puis en usant de ctrl+espace, l'instruction se corrige automatiquement pour "System.out.println();"
+
+4) Dans une classe avec toStr, Eclipse propose de corriger vers toString(), méthode existante par défaut ou bien de créer la méthode toStr()
+
+5) En tapant main, Eclipse propose toutes les méthodes contenant "main", avec en premier lieu la méthode main.
+
+6) En créant le champ toto, les méthodes getToto() et setToto() sont proposées
+
+7) En sélectionnant un élément est en activant ctrl+maj+r, Eclipse donne tous les fichiers où ls éléments sont présents.
+
+8) Après l'import de src.zip, cliqué sur "string" en appuyant sur ctrl, le fichier String.class s'ouvre. C'est ici que string est défini.
+
+TD0Bis------------------------------------------------------------------------------------------------
+
+Exercice 1)
+
+2) Les fichiers des dossiers et sous-dossiers de "src" ainsi que "pom.xml" font partie des fichiers sources. Les fichiers de target ne font pas partie des fichiers sources
+
+3)
+
+ 
