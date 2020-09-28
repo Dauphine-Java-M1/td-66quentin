@@ -17,8 +17,8 @@ public class PrimeCollection
     		numbers.add(rand.nextInt(m));
     		
     }
-    private boolean isPrime(int p) {
-    	for(int i=2;i<Math.sqrt(p);i++){
+    static boolean isPrime(int p) {
+    	for(int i=2;i<=Math.sqrt(p);i++){
     		if (p%i==0)
     				return false;
     	}

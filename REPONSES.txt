@@ -52,8 +52,12 @@ Exercice 2:
 
 3) gitk affiche remotes/origin/master en plus dans le premier cadre pour montrer l'association
 
-5) Je vais voir
+5) J'obtiens une erreur car l'autre fichier REPONSES.txt a été push
 
+6) Le fichier local montre où se trouve le conflit. Gitk indique qu'il y a un modification locale enregistrée et l'autre non. Les deux sont non validées car il y a un conflit
 
+7) Le conflit aurait été indiqué.
 
- 
+Exercice 3:
+
+2) Le fichier original ne retourne aucune erreur. Si on le modifie pour "assertTrue(false)" alors une erreur s'affiche. La méthode assertTrue est donc un test unitaire permettant de vérifier que l'assertion en paramètre retourne vrai.
