@@ -40,6 +40,12 @@ Exercice 1)
 
 2) Les fichiers des dossiers et sous-dossiers de "src" ainsi que "pom.xml" font partie des fichiers sources. Les fichiers de target ne font pas partie des fichiers sources
 
-3)
+5) git diff indique les modification depuis le dernier commit
+
+8) 2d9def5b7d45daff1477766b8c305325bebea262
+
+9) Cela donne la différence entre les deux commits
+
+10) git diff HEAD^ 1a95db89f5c345255a7e076bf943f97a11139c1e
 
  
