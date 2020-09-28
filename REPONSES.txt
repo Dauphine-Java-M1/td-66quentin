@@ -1,4 +1,4 @@
-Guardia Quentin
+Guardia Quentin M1 IIDD
 
 TD0---------------------------------------------------------------------------------------------
 
@@ -52,11 +52,7 @@ Exercice 2:
 
 3) gitk affiche remotes/origin/master en plus dans le premier cadre pour montrer l'association
 
-5) Il est indiqué que tout est à jour, sauf si on réalise un commit d'abord.
-
-6) A cause de la copie, on peut observer des modifications locales non sauvegardées
-
-7)
+5) hhh
 
 
 
