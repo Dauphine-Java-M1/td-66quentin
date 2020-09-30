@@ -25,3 +25,11 @@ True car p2 vaut p1
 False car p3 est un nouveau point et n'est donc pas p1
 
 3)Indexof retourne l'indice de l'élément dans la liste. Comment p2 et p1 sont le même point alors l'indice 0 est retourné. Comme p3 n'est pas dans la liste alors -1 est retourné. J'ajoute donc une méthod faisant équivaloir les points si leur valeurs sont identiques.
+
+Exercice 3:
+
+2) S'il n'y a pas de vérification, on peut dépasser le nombre de points maximal. On peut donc rajouter une variable contenant le nombre de points, deux getters et une condition comparant le nombre de points maximal et le nombre de points.
+
+5) La méthode contains(null) retourne l'erreur "java.lang.NullPointerException", qu'il y ait un add(null) avant ou non.
+
+6)pointCapacity et nbPoints ne sont plus utiles car il n'y a pas de limite à la liste. De plus, la méthode contains n'est plus utile non plus car les linkedlist bénéficient d'une méthode contain
