@@ -1,0 +1,27 @@
+Guardia Quentin
+
+Exercice 1:
+
+1) Cela fonctionne car les entiers sont instanciés à 0 par défaut
+
+2) On ne peut pas accéder à x ni y car ils sont privés. On peut y remédier en ajoutant une méthode qui donner accés aux variables.
+
+3) Par sécurité et encapsulation. Sinon tout le monde peut y accéder.
+
+4) Un accesseur est une méthode donnant accés aux variables privées. On peut en ajouter un ici.
+
+5) Surcharge d'opérateur
+
+6) Cela fonctionne
+
+7) On déclare une variable statique dans Point du nom de nbPoints. On l'initialise à 0 et on l'incrémente dans chaque constructeur.
+
+8) Le compilateur sait quel constructeur appeler en fonction du nombre d'arguments (surcharge d'opérateurs)
+
+Exercice 2:
+
+1) Le code affiche true puis false.
+True car p2 vaut p1
+False car p3 est un nouveau point et n'est donc pas p1
+
+3)Indexof retourne l'indice de l'élément dans la liste. Comment p2 et p1 sont le même point alors l'indice 0 est retourné. Comme p3 n'est pas dans la liste alors -1 est retourné. J'ajoute donc une méthod faisant équivaloir les points si leur valeurs sont identiques.

@@ -61,3 +61,4 @@ Exercice 2:
 Exercice 3:
 
 2) Le fichier original ne retourne aucune erreur. Si on le modifie pour "assertTrue(false)" alors une erreur s'affiche. La méthode assertTrue est donc un test unitaire permettant de vérifier que l'assertion en paramètre retourne vrai.
+
